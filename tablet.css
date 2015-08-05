@@ -1,0 +1,129 @@
+/* 
+  Biwin John Joseph (@xkaterboi)
+  Website: biwin.in
+  GitHub : https://github.com/biwin/mdl-12-columns-on-tablet
+
+  Copyright 2015 Biwin John Joseph
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+  Contains code from https://github.com/google/material-design-lite
+ */
+
+@media (min-width: 480px) and (max-width: 839px) {
+    .mdl-grid {
+    padding: 8px; }
+  .mdl-cell {
+    margin: 8px;
+    width: calc(33.3333333333% - 16px); }
+    .mdl-grid--no-spacing > .mdl-cell {
+      width: 33.3333333333%; }
+  .mdl-cell--hide-tablet {
+    display: none !important; }
+  .mdl-cell--1-col {
+    width: calc(8.3333333333% - 16px); }
+    .mdl-grid--no-spacing > .mdl-cell--1-col {
+      width: 8.3333333333%; }
+  .mdl-cell--1-col-tablet.mdl-cell--1-col-tablet {
+    width: calc(8.3333333333% - 16px); }
+    .mdl-grid--no-spacing > .mdl-cell--1-col-tablet.mdl-cell--1-col-tablet {
+      width: 8.3333333333%; }
+  .mdl-cell--2-col {
+    width: calc(16.6666666667% - 16px); }
+    .mdl-grid--no-spacing > .mdl-cell--2-col {
+      width: 16.6666666667%; }
+  .mdl-cell--2-col-tablet.mdl-cell--2-col-tablet {
+    width: calc(16.6666666667% - 16px); }
+    .mdl-grid--no-spacing > .mdl-cell--2-col-tablet.mdl-cell--2-col-tablet {
+      width: 16.6666666667%; }
+  .mdl-cell--3-col {
+    width: calc(25% - 16px); }
+    .mdl-grid--no-spacing > .mdl-cell--3-col {
+      width: 25%; }
+  .mdl-cell--3-col-tablet.mdl-cell--3-col-tablet {
+    width: calc(25% - 16px); }
+    .mdl-grid--no-spacing > .mdl-cell--3-col-tablet.mdl-cell--3-col-tablet {
+      width: 25%; }
+  .mdl-cell--4-col {
+    width: calc(33.3333333333% - 16px); }
+    .mdl-grid--no-spacing > .mdl-cell--4-col {
+      width: 33.3333333333%; }
+  .mdl-cell--4-col-tablet.mdl-cell--4-col-tablet {
+    width: calc(33.3333333333% - 16px); }
+    .mdl-grid--no-spacing > .mdl-cell--4-col-tablet.mdl-cell--4-col-tablet {
+      width: 33.3333333333%; }
+  .mdl-cell--5-col {
+    width: calc(41.6666666667% - 16px); }
+    .mdl-grid--no-spacing > .mdl-cell--5-col {
+      width: 41.6666666667%; }
+  .mdl-cell--5-col-tablet.mdl-cell--5-col-tablet {
+    width: calc(41.6666666667% - 16px); }
+    .mdl-grid--no-spacing > .mdl-cell--5-col-tablet.mdl-cell--5-col-tablet {
+      width: 41.6666666667%; }
+  .mdl-cell--6-col {
+    width: calc(50% - 16px); }
+    .mdl-grid--no-spacing > .mdl-cell--6-col {
+      width: 50%; }
+  .mdl-cell--6-col-tablet.mdl-cell--6-col-tablet {
+    width: calc(50% - 16px); }
+    .mdl-grid--no-spacing > .mdl-cell--6-col-tablet.mdl-cell--6-col-tablet {
+      width: 50%; }
+  .mdl-cell--7-col {
+    width: calc(58.3333333333% - 16px); }
+    .mdl-grid--no-spacing > .mdl-cell--7-col {
+      width: 58.3333333333%; }
+  .mdl-cell--7-col-tablet.mdl-cell--7-col-tablet {
+    width: calc(58.3333333333% - 16px); }
+    .mdl-grid--no-spacing > .mdl-cell--7-col-tablet.mdl-cell--7-col-tablet {
+      width: 58.3333333333%; }
+  .mdl-cell--8-col {
+    width: calc(66.6666666667% - 16px); }
+    .mdl-grid--no-spacing > .mdl-cell--8-col {
+      width: 66.6666666667%; }
+  .mdl-cell--8-col-tablet.mdl-cell--8-col-tablet {
+    width: calc(66.6666666667% - 16px); }
+    .mdl-grid--no-spacing > .mdl-cell--8-col-tablet.mdl-cell--8-col-tablet {
+      width: 66.6666666667%; }
+  .mdl-cell--9-col {
+    width: calc(75% - 16px); }
+    .mdl-grid--no-spacing > .mdl-cell--9-col {
+      width: 75%; }
+  .mdl-cell--9-col-tablet.mdl-cell--9-col-tablet {
+    width: calc(75% - 16px); }
+    .mdl-grid--no-spacing > .mdl-cell--9-col-tablet.mdl-cell--9-col-tablet {
+      width: 75%; }
+  .mdl-cell--10-col {
+    width: calc(83.3333333333% - 16px); }
+    .mdl-grid--no-spacing > .mdl-cell--10-col {
+      width: 83.3333333333%; }
+  .mdl-cell--10-col-tablet.mdl-cell--10-col-tablet {
+    width: calc(83.3333333333% - 16px); }
+    .mdl-grid--no-spacing > .mdl-cell--10-col-tablet.mdl-cell--10-col-tablet {
+      width: 83.3333333333%; }
+  .mdl-cell--11-col {
+    width: calc(91.6666666667% - 16px); }
+    .mdl-grid--no-spacing > .mdl-cell--11-col {
+      width: 91.6666666667%; }
+  .mdl-cell--11-col-tablet.mdl-cell--11-col-tablet {
+    width: calc(91.6666666667% - 16px); }
+    .mdl-grid--no-spacing > .mdl-cell--11-col-tablet.mdl-cell--11-col-tablet {
+      width: 91.6666666667%; }
+  .mdl-cell--12-col {
+    width: calc(100% - 16px); }
+    .mdl-grid--no-spacing > .mdl-cell--12-col {
+      width: 100%; }
+  .mdl-cell--12-col-tablet.mdl-cell--12-col-tablet {
+    width: calc(100% - 16px); }
+    .mdl-grid--no-spacing > .mdl-cell--12-col-tablet.mdl-cell--12-col-tablet {
+      width: 100%; }
+}
